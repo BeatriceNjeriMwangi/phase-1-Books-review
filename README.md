@@ -12,6 +12,8 @@ the searchbar and comment box are redirecting the page rather than show on the u
 ##How to Use Requirements A computer with a bash terminal and node installed. Access to the internet. Installation Process Clone this repository using
 
 git clone git@github.com:BeatriceNjeriMwangi/phase-1-Books-review.git
+the link to the deployed project https://github.com/BeatriceNjeriMwangi/phase-1-Books-review/deployments/github-pages
+SSH link: git@github.com:BeatriceNjeriMwangi/phase-1-Books-review.git
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
