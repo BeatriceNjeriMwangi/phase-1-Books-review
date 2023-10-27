@@ -63,14 +63,14 @@ document.addEventListener("DOMContentLoaded", ()=>{
                 
 
             });
-        })
+        })//catch any error 
         .catch(error => {
             console.error('Error fetching data:', error);
         }));
         ///it is not working as expected
         const searchButton = document.getElementById("search-button");
     const searchBar = document.getElementById("search-bar");
-
+//will work more on it
     searchButton.addEventListener("click", function(event) {
         event.preventDefault(); // Prevent form submission
         

@@ -2,11 +2,12 @@
 
 JavaScript Console Application that includes html,css and javascript. I am working on a book review project. I am getting data from google API which is an externel API by using fetch.OCTOBER 27 2023 By Beatrice Njeri
 
-##DESCRIPTION This is a simple JavaScript console application that allows fetching of data from an external API and allowing users view list of books, image and description.
+##DESCRIPTION 
+This is a simple JavaScript console application that allows fetching of data from an external API and allowing users view list of books, image and description.
 
 One has to click on the description button to be able to view on the book description.
 If you want to view books of anything you just change the endpoint part.
-the searchbar and comment box are redirecting the page rather than show on the user interface.
+the searchbar and comment box are redirecting the page rather than show on the user interface.I will continue working on it.
 
 ##How to Use Requirements A computer with a bash terminal and node installed. Access to the internet. Installation Process Clone this repository using
 
