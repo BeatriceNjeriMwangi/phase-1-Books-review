@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
                     <p><strong>Authors:</strong> ${bookInfo.authors}</p>
                     <p><strong>Published Date:</strong> ${bookInfo.publishedDate}</p>
                     <img src="${bookInfo.imageLinks.thumbnail}" alt="Book Cover">
-                    <div class="comments">//where to add comments
+                    <div class="comments">
               <!-- Existing comments will be displayed here -->
             </div>
             <form class="commentForm">
