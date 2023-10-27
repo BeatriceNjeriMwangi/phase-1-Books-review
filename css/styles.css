@@ -20,7 +20,9 @@ ul{
     margin: 0%;
     width: 400px;
     background-color: aquamarine;
+
 }
+
 .container-fluid {
     max-width: 800 px;
     margin: 0 auto;
@@ -39,4 +41,5 @@ div{
 }
 .book img {
     max-width: 100px;
+    margin: auto;
 }
