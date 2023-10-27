@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
     const bookReview = document.getElementById("book-review");
         const booklist = document.getElementById('book-list');
 
-    //fetching data
-    fetch('https://www.googleapis.com/books/v1/volumes?q=javascript')
+    //fetching data from google api
+    fetch('https://www.googleapis.com/books/v1/volumes?q=motorbikes')
        .then(res => res.json()
             .then(data=>{
                 data.items.forEach(book => {
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
                     <p><strong>Authors:</strong> ${bookInfo.authors}</p>
                     <p><strong>Published Date:</strong> ${bookInfo.publishedDate}</p>
                     <img src="${bookInfo.imageLinks.thumbnail}" alt="Book Cover">
-                    <div class="comments">
+                    <div class="comments">//where to add comments
               <!-- Existing comments will be displayed here -->
             </div>
             <form class="commentForm">
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
               <button type="submit">Post Comment</button>
             </form>
                 `;
-            
+            //list of books
                 const bookListItem = document.createElement('li');
           bookListItem.classList.add('book');
           bookListItem.innerHTML = `
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
                              
 
 
-
+                        //creating description button
                 const button = document.createElement('button')
                 button.textContent = 'Description'
                 button.addEventListener('click', () => {
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
         if (searchTerm !== "") {
             // Redirect to the search result page with the search term as a query parameter
-            window.location.href = `http://127.0.0.1:5500/index.html?query=${encodeURIComponent(searchTerm)}`;
+           
         } else {
           alert("Please enter a search term.");
         }
