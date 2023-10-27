@@ -43,3 +43,8 @@ div{
     max-width: 100px;
     margin: auto;
 }
+footer{
+    text-align: center;
+    background-color: white;
+    padding: 2px;
+}
